@@ -1,0 +1,50 @@
+
+import { WrappedData } from './types.ts';
+
+export const wrappedData: WrappedData = {
+  "hero": {
+    "title": "You secured.",
+    "subtitle": "We logged.",
+    "subtext": "MIST Wrapped 2025"
+  },
+  "community": {
+    "totalMembers": 150,
+    "activeContributors": 92,
+    "eventsConducted": 28
+  },
+  "topDomains": [
+    "Web Exploitation",
+    "Binary Exploitation (Pwn)",
+    "Reverse Engineering",
+    "Cryptography",
+    "Hardware & IoT"
+  ],
+  "personality": {
+    "ctfs": 58,
+    "writeups": 22,
+    "tools": 145,
+    "description": "Your security taste is as diverse as our Hackerspace sessions. You're a polyglot of the terminal."
+  },
+  "securityAge": {
+    "age": 21,
+    "description": "You've got the energy of a freshman at Checkmate and the precision of a seasoned researcher."
+  },
+  "vulnerabilities": [
+    { "title": "Command Injection", "description": "Finding that semicolon in the input field—pure dopamine.", "color": "#FFFB00" },
+    { "title": "Bypass Auth", "description": "Who needs credentials when you have logic flaws?", "color": "#8A2BE2" },
+    { "title": "Padding Oracle", "description": "The math was mathing, and the cipher broke.", "color": "#FF3131" },
+    { "title": "Broken Access Control", "description": "Admin panels aren't just for admins anymore.", "color": "#00FF41" }
+  ],
+  "tools": [
+    { "name": "Burp Suite", "tagline": "Your daily driver for every web challenge.", "color": "#FFFB00" },
+    { "name": "GDB + Pwndbg", "tagline": "Peering into the stack like it's second nature.", "color": "#8A2BE2" },
+    { "name": "CyberChef", "tagline": "The multi-tool for every encoding nightmare.", "color": "#FF3131" },
+    { "name": "Hashcat", "tagline": "Cracking MD5s faster than a fresh coffee.", "color": "#00FF41" }
+  ],
+  "impact": {
+    "workshops": 15,
+    "recruitments": 1200,
+    "challenges": 250,
+    "reach": "5k+"
+  }
+};
