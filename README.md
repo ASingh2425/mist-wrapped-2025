@@ -1,1 +1,1 @@
-"# quartz_obsidian" 
+# mist wrapped 2025
